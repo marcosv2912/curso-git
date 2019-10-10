@@ -19,6 +19,8 @@ namespace Conversor
             Console.Write("Quantos dólares voce vai comprar: ");
             conv.qtd = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
+            Console.WriteLine();
+
             Console.WriteLine("Valor a ser pago em reais = "+conv.Valores().ToString("F2",CultureInfo.InvariantCulture));
         }
     }
