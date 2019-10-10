@@ -22,6 +22,8 @@ namespace Conversor
             Console.WriteLine();
 
             Console.WriteLine("Valor a ser pago em reais = "+conv.Valores().ToString("F2",CultureInfo.InvariantCulture));
+
+            Console.WriteLine("VALEU");
         }
     }
 }
