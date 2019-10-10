@@ -9,6 +9,8 @@ namespace Conversor
         {
             ConversorDeMoeda conv = new ConversorDeMoeda();
 
+            Console.WriteLine("Olá, vamos começar");
+
             Console.Write("Qual é a cotação do dólar: ");
             conv.cotacao = double.Parse(Console.ReadLine(),CultureInfo.InvariantCulture);
 
